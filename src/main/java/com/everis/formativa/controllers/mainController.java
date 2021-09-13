@@ -23,7 +23,7 @@ public class mainController {
 			@RequestParam("limite") @NotBlank @Size(max = 6) String limite,
 			@RequestParam("codigo") @NotBlank String codigo) {
 		boolean error = false;
-		if(Integer.parseInt(limite)<0 && limite.length()<6) {
+		if(Integer.parseInt(limite)<0 || limite.length()>6) {
 			model.addAttribute("limiteError", "El límite debe ser un número positivo");
 			error=true;
 		}
