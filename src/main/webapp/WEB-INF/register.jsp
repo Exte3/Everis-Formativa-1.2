@@ -29,23 +29,23 @@
 
         <form action='register' id='formRegister' method='post'>
             <div>
-                <label>Nombre</label>
+                <label>Nombre : </label>
                 <input placeholder="Nombre" name="nombre" required="">
             </div>
 
             <div>
-                <label>Apellido</label>
+                <label>Apellido : </label>
                 <input placeholder="Apellido" name="apellido" required="">
             </div>
 
             <div>
-                <label>Límite</label>
+                <label>Límite : </label>
                 <input placeholder="limite" name="limite" required="" type="number">
             </div>
 
             <div>
                 <label>Código Postal</label>
-                <input placeholder="ingrese codigo postal" name="codigo" required="" type="number">
+                <input placeholder="Codigo postal" name="codigo" required="" type="number">
             </div>
 
 
